@@ -1,0 +1,6 @@
+# origin: https://app.mayhem.security/mayhemheroes/cctz/fuzz-cctz/15
+project: savantenvs/cctz
+target: fuzz-cctz-buggy-mhh-run-15
+cmds:
+  - cmd: /mayhem/fuzz_cctz
+    libfuzzer: true
